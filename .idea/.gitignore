@@ -20,3 +20,8 @@ __pycache__/
 
 # Windows
 Thumbs.db
+/misc.xml
+/modules.xml
+/inspectionProfiles/profiles_settings.xml
+/inspectionProfiles/Project_Default.xml
+/QuizzMasterAPI.iml
