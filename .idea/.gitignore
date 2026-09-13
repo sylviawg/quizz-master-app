@@ -17,3 +17,6 @@ __pycache__/
 
 # Environment variables / Secrets
 .env
+
+# Windows
+Thumbs.db
