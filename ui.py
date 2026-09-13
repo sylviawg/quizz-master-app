@@ -13,7 +13,7 @@ class QuizInterface:
         self.create_quiz = create_quiz
 
         self.window = tk.Tk()
-        self.window.title("Quizzler")
+        self.window.title("QuizzMaster")
         self.window.config(padx=20, pady=20, bg=THEME_COLOR)
 
 
