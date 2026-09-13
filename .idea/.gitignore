@@ -1,0 +1,19 @@
+# PyCharm / IntelliJ settings
+.idea/
+/shelf/
+/workspace.xml
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python bytecode caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables / Secrets
+.env
