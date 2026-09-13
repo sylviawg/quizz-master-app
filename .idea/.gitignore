@@ -1,5 +1,9 @@
 # PyCharm / IntelliJ settings
 .idea/
+.idea/QuizzMasterAPI.iml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
 /shelf/
 /workspace.xml
 
