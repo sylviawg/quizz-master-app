@@ -10,7 +10,7 @@ The application presents a series of questions, tracks the user's progress and s
 
 ## Preview
 <p align="center">
-![Quiz App Screenshot](images/QuizzMaster_snapshot.png)
+ <img src="images/QuizzMaster_snapshot.png" />
 </p>
 
 ---
