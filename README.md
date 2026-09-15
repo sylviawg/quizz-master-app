@@ -1,4 +1,4 @@
-# Quiz App
+# Quizz Master App
 
 A desktop **True/False Quiz Application** built with Python and Tkinter.
 
