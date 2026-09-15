@@ -239,7 +239,7 @@ The application separates the **data**, **quiz logic**, and **user interface** i
           │                   │
           ▼                   │
    ┌─────────────┐            │
-   │question_model│            │
+   │question_model│           │
    │    .py      │            │
    └──────┬──────┘            │
           │                   │
