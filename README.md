@@ -9,9 +9,9 @@ The application presents a series of questions, tracks the user's progress and s
 ---
 
 ## Preview
-
+<p align="center">
 ![Quiz App Screenshot](images/QuizzMaster_snapshot.png)
-
+</p>
 
 ---
 
@@ -31,7 +31,7 @@ The application presents a series of questions, tracks the user's progress and s
 
 ## Built With
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.9.1-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-FFCC00?style=for-the-badge)
 ![OOP](https://img.shields.io/badge/Concept-Object--Oriented%20Programming-6A5ACD?style=for-the-badge)
 
@@ -125,13 +125,13 @@ The application uses **Tkinter**, which is included with most standard Python in
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Quiz-App.git
+git clone https://github.com/sylviawg/quizz-master-app.git
 ```
 
 ### 2. Navigate to the project directory
 
 ```bash
-cd Quiz-App
+cd quizz-master-app
 ```
 
 ### 3. Run the application
