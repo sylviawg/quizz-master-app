@@ -2,9 +2,9 @@
 
 A desktop **True/False Quiz Application** built with Python and Tkinter.
 
-This project was developed as part of **Angela Yu's 100 Days of Code: The Complete Python Pro Bootcamp** and further organized and customized while learning Python, object-oriented programming, and GUI development.
+The application retrieves quiz questions dynamically from the Open Trivia Database API and presents them through an interactive graphical user interface. It keeps track of the user's progress and score and provides immediate visual feedback after each answer.
 
-The application presents a series of questions, tracks the user's progress and score, and provides immediate visual feedback after each answer.
+This project was developed as part of **Angela Yu's 100 Days of Code: The Complete Python Pro Bootcamp** and further extended and organized while learning Python, object-oriented programming, GUI development, and working with external APIs.
 
 ---
 
@@ -18,13 +18,14 @@ The application presents a series of questions, tracks the user's progress and s
 ## Features
 
 * True/False quiz questions
-* Interactive graphical user interface
+* Questions retrieved dynamically from the **Open Trivia Database API**
+* Interactive graphical user interface built with Tkinter
 * Score tracking
 * Question progress indicator
-* Immediate visual feedback
+* Immediate visual feedback for correct and incorrect answers
+* **New Quiz functionality** to start a fresh quiz after completion
 * Separate modules for application components
 * Object-oriented quiz logic
-* Restart the quiz after completion
 * Custom True/False button graphics
 
 ---
@@ -34,6 +35,15 @@ The application presents a series of questions, tracks the user's progress and s
 ![Python](https://img.shields.io/badge/Python-3.9.1-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-FFCC00?style=for-the-badge)
 ![OOP](https://img.shields.io/badge/Concept-Object--Oriented%20Programming-6A5ACD?style=for-the-badge)
+
+
+## External API
+
+Quiz questions are provided by the **Open Trivia Database**:
+
+[Open Trivia Database](https://opentdb.com)
+
+The API provides the question data used by the application, allowing a new set of questions to be retrieved rather than relying on a fixed collection stored directly in the application.
 
 ---
 
@@ -64,7 +74,9 @@ It initializes the quiz and connects the quiz logic with the graphical user inte
 
 ### `data.py`
 
-Contains the question data used by the quiz.
+Handles retrieving the quiz questions from the **Open Trivia Database API**.
+
+The API response is processed so that the question data can be used by the quiz application.
 
 ### `question_model.py`
 
@@ -96,7 +108,7 @@ Responsibilities include:
 * Handling True/False button clicks
 * Providing visual feedback
 * Displaying the final result
-* Starting a new quiz
+* Providing the **New Quiz** functionality
 
 ### `images/`
 
@@ -117,6 +129,8 @@ python --version
 ```
 
 The application uses **Tkinter**, which is included with most standard Python installations.
+
+An internet connection is required because quiz questions are retrieved from the Open Trivia Database API.
 
 ---
 
@@ -147,12 +161,23 @@ The quiz window should open automatically.
 ## How to Play
 
 1. Start the application.
-2. Read the question displayed on the screen.
+2. A question retrieved from the Open Trivia Database is displayed.
 3. Select **True** or **False**.
 4. The application immediately indicates whether the answer was correct.
-5. Continue through the questions while keeping track of your score.
-6. At the end of the quiz, your final score is displayed.
-7. Start a new quiz if you want to play again.
+5. Your score and question progress are updated.
+6. Continue until all questions have been answered.
+7. Your final score is displayed when the quiz is complete.
+8. Click **New Quiz** to retrieve a new set of questions and start another quiz.
+
+---
+
+## New Quiz Functionality
+
+After completing a quiz, the application provides a **New Quiz** button.
+
+Selecting this button resets the relevant quiz state and retrieves a new set of questions from the Open Trivia Database API.
+
+This was an additional feature added to extend the original project functionality and make the application reusable without having to restart the program.
 
 ---
 
